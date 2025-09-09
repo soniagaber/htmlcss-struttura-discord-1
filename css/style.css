@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted red;
+}
+
+.main-container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+nav{
+    height: 40px;
+    background-color: blue;
+}
+
+ nav .main-container div{height: 100%;
+background-color: midnightblue;
+}
+
+#logo, #accedi, #tasti div{
+    width: 80px;
+}
+
+#tasti{
+    display: flex;
+}
+
+header{background-color: blue;}
+
+#jumbo-container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+justify-content: space-between;
+flex-direction: column;
+padding-top: 80px;
+padding-bottom: 70px;
+text-align: center;
+}
+
+#jumbo-container h1{
+    margin-bottom: 20px;
+}
+
+#jumbo-container p{
+    margin-bottom: 10px;
+}
+
+#bottoni-jumbo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+section{background-color: greenyellow;
+padding-top: 70px;
+padding-bottom: 70px;}
+
+section:first-of-type, section:nth-of-type(2), section:nth-of-type(3){
+    display: flex;
+    justify-content: space-between;
+}
+
+section:first-of-type .ima, section:nth-of-type(2) .ima, section:nth-of-type(3) .ima{
+    display: flex;
+    width: 50%;
+    height: 120px;
+    background-color: green;
+}
+
+.scritte{
+    height: 120px;
+    width: 45%;
+}
+
+.scritte h2{
+    height: 60px;
+    width: 100%;
+    background-color: green;
+    margin-bottom: 15px;
+}
+
+.scritte p{
+    height: 45px;
+    width: 100%;
+    background-color: green;
+}
