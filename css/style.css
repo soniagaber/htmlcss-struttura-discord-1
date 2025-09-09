@@ -5,14 +5,17 @@
     border: 1px dotted red;
 }
 
+section:first-of-type .main-container, section:nth-of-type(2) .main-container, section:nth-of-type(3) .main-container{
+    display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
 .main-container{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    display: flex;
-justify-content: space-between;
-flex-direction: row;
 }
 
 nav{
@@ -76,7 +79,7 @@ section:first-of-type .ima, section:nth-of-type(2) .ima, section:nth-of-type(3) 
     background-color: green;
 }
 
-.scritte{
+section:first-of-type .scritte, section:nth-of-type(2) .scritte, section:nth-of-type(3) .scritte{
     height: 120px;
     width: 45%;
 }
@@ -93,3 +96,41 @@ section:first-of-type .ima, section:nth-of-type(2) .ima, section:nth-of-type(3) 
     width: 100%;
     background-color: green;
 }
+
+section:last-of-type h2{
+    height: 60px;
+    width: 100%;
+    background-color: green;
+    margin-bottom: 15px;
+}
+
+section:last-of-type p{
+    height: 45px;
+    width: 100%;
+    background-color: green;
+    margin-bottom: 15px;
+}
+
+section:last-of-type .imag{
+    height: 120px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: green;
+}
+
+section:last-of-type .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#pronto{
+    background-color: green;
+    height: 20px;
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+#scarica
